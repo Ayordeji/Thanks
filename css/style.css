@@ -177,6 +177,11 @@ body {
     line-height: 18px;
 }
 
+.fs-mine {
+    font-size: 16px;
+    line-height: 18px;
+}
+
 @media only screen and (max-width: 991.99px) {
     .fs-large {
         font-size: 32px;
@@ -505,6 +510,49 @@ body {
 .primary-btn:disabled, .primary-btn[disabled] {
     background-color: #F49AF4;
 }
+
+
+/* My Buttons */
+.mine1-btn{
+    background-color: #FFFFFF;
+    border: 1px solid #AF13AF;
+    text-align: center;
+    color: #AF13AF;
+}
+
+.mine1-btn:hover {
+    background-color: #DD18DD;
+    color: #FFFFFF;
+    border-color: #DD18DD;
+}
+
+.mine1-btn:active, .mine-btn:focus {
+    background-color: #EA3EEA;
+    color: #FFFFFF;
+    border-color: #EA3EEA;
+}
+.mine1-btn:disabled, .mine-btn[disabled] {
+    opacity: 0.5;
+}
+
+
+.mine2-btn {
+    background-color: #AF13AF;
+    border: 2px solid #AF13AF;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mine2-btn:hover {
+    background-color: #DD18DD;
+}
+.mine2-btn:active {
+    background-color: #EA3EEA;
+}
+.mine2-btn:disabled, .mine2-btn[disabled] {
+    background-color: #F49AF4;
+}
+
+
 
 .ghost-primary-btn {
     background-color: #FFFFFF;
